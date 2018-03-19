@@ -11,7 +11,7 @@ module MyPlugin
       end
     end
 
-    # Mount new API resource.
+    # Mount new API resource in hook (friendly with development environment).
     # More about configuration stages: http://guides.rubyonrails.org/configuring.html#configuring-action-dispatch
     config.to_prepare do
       APIv2::Mount.mount APIv2::Alphabet
