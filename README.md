@@ -14,3 +14,10 @@ Read more about Peatio plugins at [#708](https://github.com/rubykube/peatio/pull
 
 ![image](https://user-images.githubusercontent.com/7421323/37644319-180baba8-2c2c-11e8-9658-a8b71a285b59.png)
 ![image](https://user-images.githubusercontent.com/7421323/37644335-266abf22-2c2c-11e8-95b8-c0b062813735.png)
+
+To install this plugin insert the following into `config/plugins.yml` and run `bin/install_plugins`:
+```yml
+- name:   peatio-plugin-example
+  git:    https://github.com/rubykube/peatio-plugin-example.git
+  commit: 2a6bb77e6b83e7f057f4308a907f31a88471abb7
+```
